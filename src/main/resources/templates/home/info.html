@@ -1,0 +1,28 @@
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th="http://www.thymeleaf.org">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--</head>-->
+
+<!--<body>-->
+<!--<main>-->
+<!--    <h3 th:unless="${#request.remoteUser}">-->
+<!--        <i style="color:#ff0000">Chưa đăng nhập</i>-->
+<!--    </h3>-->
+<!--    <th:block th:if="${#request.remoteUser}">-->
+<!--        <h3 style="color: blue">Authenication Info</h3>-->
+<!--        <ul>-->
+<!--            <li>Username: <b>[[${#request.remoteUser}]]</b></li>-->
+<!--            <li>Is admin? <b>[[${#request.isUserInRole('ADMIN')}]]</b></li>-->
+<!--        </ul>-->
+
+<!--        <ul th:object="${#request.userPrincipal}">-->
+<!--            <li>Username: <b>[[*{name}]]</b></li>-->
+<!--            <li>Roles: <b>[[*{authorities}]]</b></li>-->
+<!--        </ul>-->
+
+<!--    </th:block>-->
+
+<!--</main>-->
+<!--</body>-->
+<!--</html>-->
